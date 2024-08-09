@@ -1,0 +1,32 @@
+/* styles.css or ReservationsList.css */
+
+.user-management {
+  padding: 20px;
+}
+
+.user-management table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-management th, .user-management td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-management th {
+  background-color: #f2f2f2;
+}
+.user-management button {
+  background-color: #f44336; /* Red color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.user-management button:hover {
+  background-color: #c62828; /* Darker red */
+}

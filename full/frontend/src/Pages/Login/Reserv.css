@@ -1,0 +1,66 @@
+/* styles.css or ReservationsList.css */
+
+.reservations-list {
+    padding: 20px;
+  }
+  
+  .reservations-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reservations-list th, .reservations-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .reservations-list th {
+    background-color: #f2f2f2;
+  }
+  .reservations-list button {
+    background-color: #f44336; /* Red color */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .reservations-list button:hover {
+    background-color: #c62828; /* Darker red */
+  }
+  
+
+  /* styles.css or ReservationsList.css */
+
+.admin-orders {
+  padding: 20px;
+}
+
+.admin-orders table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-orders th, .admin-orders td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin-orders th {
+  background-color: #f2f2f2;
+}
+.admin-orders button {
+  background-color: #f44336; /* Red color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.admin-orders button:hover {
+  background-color: #c62828; /* Darker red */
+}
