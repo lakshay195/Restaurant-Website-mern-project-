@@ -21,7 +21,7 @@ app.use(cors({
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://lakshaybhandoria:6BjGrnM2Lzhdk01Y@cluster0.ght9xik.mongodb.net/your_database_name', {
+mongoose.connect('your connecting string, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
